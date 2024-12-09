@@ -14,7 +14,7 @@ def convert_arff_to_csv(arff_file, csv_file):
 
 if __name__=='__main__': 
 
-    folder = '/home/yoan/Documents/Centrale/4A/MOD/Intro Data Science/BE1/Rendu BE1/data/'
+    folder = 'Data/'
 
     for file in os.listdir(folder):
         if file.endswith('.arff'):
